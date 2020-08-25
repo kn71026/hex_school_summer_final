@@ -1,3 +1,47 @@
 .banner{
     @include text_to_image($banner_url,auto,870px,cover);
 }
+
+.shopbutton{
+    border: solid 2px;
+    border-radius: 30px;
+    width: 350px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.card-img-top{
+    border-radius: 0px;
+}
+
+.sold_out{
+    background: url("../img/right.png");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .soldout_text{
+        position: absolute;
+    }
+}
+
+.opacity {
+    opacity:0.7;
+}
+
+.bottle_text{
+    line-height: 1.5rem;
+}
+
+.sub{
+    @include text_to_image($sub_url,auto,600px,cover);
+}
+.inputmail{
+    border: solid 2px $primary;
+    border-radius: 4px;
+    width: 290px;
+    height: 60px;
+    text-indent: 10px;
+
+}
