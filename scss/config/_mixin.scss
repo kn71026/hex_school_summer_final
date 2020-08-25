@@ -1,3 +1,21 @@
+@mixin text_to_image($image-url, $image-width: auto, $image-height: auto) {
+    background-image: url($image-url);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: $image-width;
+    height: $image-height;
+    background-size: contain;
+}
+
+@mixin hide-text {
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-size: contain;
+}
+
+
 @mixin pad {
     @media(max-width: 767px) {
         @content;

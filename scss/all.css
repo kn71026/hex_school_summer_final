@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -10797,5 +10798,19 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+
+h1 a {
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  background-size: contain;
+  background-image: url("../img/d’Perfume.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 38px;
+  background-size: contain;
 }
 /*# sourceMappingURL=all.css.map */
