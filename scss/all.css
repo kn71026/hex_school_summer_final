@@ -10800,7 +10800,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-h1 a {
+.logo a {
   display: block;
   text-indent: 101%;
   overflow: hidden;
@@ -10812,5 +10812,28 @@ h1 a {
   width: 128px;
   height: 38px;
   background-size: contain;
+}
+
+.logo_white {
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  background-size: contain;
+  background-image: url("../img/d’Perfumew.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 128px;
+  height: 38px;
+  background-size: contain;
+}
+
+.banner {
+  background-image: url("../img/banner.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 870px;
+  background-size: cover;
 }
 /*# sourceMappingURL=all.css.map */

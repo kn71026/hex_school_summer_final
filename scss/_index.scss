@@ -1,0 +1,3 @@
+.banner{
+    @include text_to_image($banner_url,auto,870px,cover);
+}

@@ -1,5 +1,12 @@
-h1 a{
+.logo a{
     @include hide-text;
-    @include text_to_image($logo_url, $logo-width, $logo-height);
+    @include text_to_image($logo_url, $logo-width, $logo-height,contain);
 }
+
+.logo_white{
+    @include hide-text;
+    @include text_to_image($logow_url, $logo-width, $logo-height,contain);
+}
+
+
 
