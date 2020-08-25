@@ -1,0 +1,7 @@
+.detail{
+    img{
+        @include media-breakpoint-down(lg){
+            width: 100%;
+        }
+    }
+}

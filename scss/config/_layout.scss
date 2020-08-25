@@ -7,9 +7,9 @@
     @include text_to_image($logo_url, $logo-width, $logo-height,contain);
 }
 
-.logo_white{
+.logo_white a{
     @include hide-text;
-    @include text_to_image($logow_url, $logo-width, $logo-height,contain);
+    @include text_to_image($logoW_url, $logo-width, $logo-height,contain);
 }
 
 

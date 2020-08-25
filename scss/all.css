@@ -11134,7 +11134,7 @@ a.text-lightgray:hover, a.text-lightgray:focus {
 
 .logo a {
   display: block;
-  text-indent: 101%;
+  text-indent: 110%;
   overflow: hidden;
   white-space: nowrap;
   background-size: contain;
@@ -11146,9 +11146,9 @@ a.text-lightgray:hover, a.text-lightgray:focus {
   background-size: contain;
 }
 
-.logo_white {
+.logo_white a {
   display: block;
-  text-indent: 101%;
+  text-indent: 110%;
   overflow: hidden;
   white-space: nowrap;
   background-size: contain;
@@ -11217,11 +11217,17 @@ a.text-lightgray:hover, a.text-lightgray:focus {
   background-size: cover;
 }
 
-.inputmail {
+.inputMail {
   border: solid 2px #916000;
   border-radius: 4px;
   width: 290px;
   height: 60px;
   text-indent: 10px;
+}
+
+@media (max-width: 1199.98px) {
+  .detail img {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=all.css.map */

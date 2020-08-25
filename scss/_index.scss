@@ -37,7 +37,7 @@
 .sub{
     @include text_to_image($sub_url,auto,600px,cover);
 }
-.inputmail{
+.inputMail{
     border: solid 2px $primary;
     border-radius: 4px;
     width: 290px;
