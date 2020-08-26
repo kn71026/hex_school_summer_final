@@ -11132,6 +11132,10 @@ a.text-lightgray:hover, a.text-lightgray:focus {
   font-family: 'Microsoft JhengHei',sans-serif;
 }
 
+* img, body img {
+  width: 100%;
+}
+
 .logo a {
   display: block;
   text-indent: 110%;
