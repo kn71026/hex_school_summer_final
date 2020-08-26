@@ -11132,10 +11132,6 @@ a.text-lightgray:hover, a.text-lightgray:focus {
   font-family: 'Microsoft JhengHei',sans-serif;
 }
 
-* img, body img {
-  width: 100%;
-}
-
 .logo a {
   display: block;
   text-indent: 110%;
@@ -11237,5 +11233,17 @@ a.text-lightgray:hover, a.text-lightgray:focus {
 
 .footer_logo {
   width: auto;
+}
+
+.loginImg img {
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=all.css.map */
