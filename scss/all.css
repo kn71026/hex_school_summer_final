@@ -11230,4 +11230,8 @@ a.text-lightgray:hover, a.text-lightgray:focus {
     width: 100%;
   }
 }
+
+.footer_logo {
+  width: auto;
+}
 /*# sourceMappingURL=all.css.map */
