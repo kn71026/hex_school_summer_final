@@ -19,6 +19,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
+  --black: #000;
   --primary: #916000;
   --secondary: #AC8A46;
   --success: #28a745;
@@ -11324,6 +11325,34 @@ a.text-memberGray:hover, a.text-memberGray:focus {
   background-size: contain;
 }
 
+.navbar-toggler:hover {
+  background-color: #acb2b8;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.navbar-toggler:focus {
+  outline: 0;
+}
+
+.navbarColor {
+  background-color: #707070;
+}
+
+.navbarColor li {
+  border-bottom: 1px solid white;
+}
+
+.navbarColor li:hover {
+  background-color: #acb2b8;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.navbarColor li a {
+  color: white;
+}
+
 .banner {
   background-image: url("../img/banner.png");
   background-position: center center;
@@ -11410,6 +11439,10 @@ li {
 li a {
   text-decoration: none;
   color: #848484;
+}
+
+.blacktext {
+  color: black;
 }
 
 .small_text {

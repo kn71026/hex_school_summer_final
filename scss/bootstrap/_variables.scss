@@ -59,7 +59,8 @@ $colors: map-merge(
     "cyan":       $cyan,
     "white":      $white,
     "gray":       $gray-600,
-    "gray-dark":  $gray-800
+    "gray-dark":  $gray-800,
+    "black":      $black
   ),
   $colors
 );
@@ -75,6 +76,7 @@ $dark:          $gray-800 !default;
 $gray:          #E0E0E0;
 $lightgray:     #8D8D8D;
 $memberGray: #818A91;
+$black:     $black;
 
 $theme-colors: () !default;
 $theme-colors: map-merge(

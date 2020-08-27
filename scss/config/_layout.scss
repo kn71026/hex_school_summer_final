@@ -11,6 +11,28 @@
     @include hide-text;
     @include text_to_image($logoW_url, $logo-width, $logo-height,contain);
 }
+.navbar-toggler{
+    &:hover{
+        background-color: $gray1;
+        transition-duration: 0.8s;
+    }
+    &:focus {
+        outline: 0;
+    }
+}
 
+.navbarColor{
+    background-color: $navbar;
+    li{
+        border-bottom: 1px solid white;
+        &:hover {
+            background-color: $gray1;
+            transition-duration: 0.5s;
+        }
+    }
+    li a{
+        color: white;
+    }
+}
 
 
