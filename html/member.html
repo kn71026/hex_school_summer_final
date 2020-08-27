@@ -43,7 +43,7 @@
         </header>
         <!-- header end -->
     </div>
-    <div class="container-fluid bg-primary d-none d-lg-flex align-items-center mb-5 d-lg-block">
+    <div class="container-fluid bg-primary d-none align-items-center mb-5 d-xl-block">
         <div class="container pl-0">
             <ul class="nav">
                 <li class="nav-item">
@@ -68,17 +68,26 @@
         </div>
     </div>
     <!-- content start -->
+
     <div class="container">
         <div class="row">
-            <div class="col-12 col-xl-2">
-                <h5 class="mb-3 d-none d-lg-block">會員中心</h5>
-                <ul class="p-0 d-flex justify-content-between d-lg-block">
-                    <li><a href="#">會員資料修改</a></li>
-                    <li><a href="#">訂單查詢</a></li>
-                    <li><a href="#">退/換貨申請</a></li>
-                </ul>
+            <div class="col-12 col-xl-2 d-flex px-0 row">
+                <nav class="col-12 navbar navbar-expand navbar-light d-flex flex-row flex-xl-column px-0 pt-0">
+                    <a class="navbar-brand d-none d-xl-block pr-0" href="#">會員中心</a>
+                    <ul class="navbar-nav d-flex flex-row flex-xl-column justify-content-between">
+                        <li class="nav-item active">
+                            <a class="nav-link " href="#">會員資料修改</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">訂單查詢</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">退/換貨申請</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <div class="col-12 col-xl-10">
+            <div class="col-12 col-xl-10 pl-0">
                 <div class="row flex-row-reverse">
                     <div class="col-12 col-xl-4 pt-3 text-memberGray">
                         <div class="d-flex align-items-center mb-3">
@@ -93,7 +102,7 @@
                         <div class="d-flex row mb-3">
                             <h6 class="col-5 pr-0">我的收藏</h6>
                             <h6 class="col-4 pl-0">23</h6>
-                            
+
                         </div>
                         <div class="d-flex row mb-3">
                             <h6 class="col-5 pr-0">已完成訂單</h6>
@@ -294,5 +303,12 @@
     </div>
     <!-- footer end -->
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+</script>
 
 </html>
