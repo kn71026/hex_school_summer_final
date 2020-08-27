@@ -87,6 +87,26 @@
             </ul>
         </div>
     </div>
+        <!-- Modal -->
+        <div class="modal fade" id="heart" tabindex="-1" role="dialog" aria-labelledby="heart" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body text-center font-weight-bold text-primary">
+                        已加入收藏
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="cart" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body text-center font-weight-bold text-primary">
+                        已加入購物車
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
     <!-- content start -->
     <div class="container detail">
         <img class="d-flex d-lg-none mb-4" src="/img/detail/1.png" alt="">
@@ -98,16 +118,22 @@
                 </p>
                 <p class="mb-4">NT$4,980</p>
                 <div class="input-group mb-1">
-                    <select class="custom-select inputMail" id="addToCart">
+                    <select class="custom-select inputMail " id="addToCart" >
                         <option selected>1</option>
                         <option>2</option>
                         <option>3</option>
                     </select>
                     <div class="input-group-append">
-                        <button class="btn btn-primary" for="addToCart">加入購物車</button>
+                        <button class="btn btn-primary px-5 px-sm-5" for="addToCart" data-target="#cart" data-toggle="modal">加入購物車</button>
                     </div>
                 </div>
-                <div class="addToFav pb-5">加入我的收藏</div>
+                <div class="add d-flex align-items-center">
+                    <a href="#" data-target="#heart" data-toggle="modal"
+                                class="color-gray-darker c6 td-hover-none">
+                                <img src="/img/heart_dark.svg" />
+                            </a>
+                    <div class="addToFav pt-1 ml-2 font-weight-bold">加入我的收藏</div>
+                </div>
                 <h6 class="font-weight-bold pt-5">商品購買須知</h6>
                 <p class="pb-2">產品因拍攝關係顏色可能略有差異，實際以廠商出貨為主。 商品情境照為示意用，僅商品主體不包含其他配件，請以規格內容物為主。 D’Perfume
                     盡可能確保所列商品備貨充足，但偶爾仍會有產品售罄的情況。如您所訂購的商品庫存不足，我們將盡快以電子郵件通知您。任何訂單變動均會在訂單總額與出貨訊息內更新。</p>
@@ -150,5 +176,12 @@
     </div>
     <!-- footer end -->
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
 
 </html>

@@ -11432,6 +11432,15 @@ a.text-memberGray:hover, a.text-memberGray:focus {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 li {
   list-style-type: none;
 }
@@ -11439,6 +11448,11 @@ li {
 li a {
   text-decoration: none;
   color: #848484;
+}
+
+.active a {
+  border-bottom: 2px solid #916000;
+  text-decoration: none;
 }
 
 .blacktext {
