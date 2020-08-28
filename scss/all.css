@@ -11428,6 +11428,12 @@ a.text-memberGray:hover, a.text-memberGray:focus {
   width: auto;
 }
 
+.cartNum {
+  padding: 0.3px 6px;
+  left: 70%;
+  bottom: 55%;
+}
+
 .loginImg img {
   width: 100%;
 }
