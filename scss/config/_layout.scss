@@ -11,13 +11,30 @@
     @include hide-text;
     @include text_to_image($logoW_url, $logo-width, $logo-height,contain);
 }
-.navbar-toggler{
-    &:hover{
-        background-color: $gray1;
-        transition-duration: 0.8s;
+
+.navbar{
+    &-nav{
+        li {
+            a{
+                display: block;
+                color: $headrNavBar;
+                padding: 0.5rem 0.5rem;
+            }
+            &:hover{
+                border-radius: 3px;
+                transition-duration: 0.5s;
+                background-color: #acb2b854;
+            } 
+        }
     }
-    &:focus {
-        outline: 0;
+    &-toggler{
+        &:hover{
+            background-color: $gray1;
+            transition-duration: 0.8s;
+        }
+        &:focus {
+            outline: 0;
+        }
     }
 }
 
@@ -35,4 +52,21 @@
     }
 }
 
+.page{
+    li a{
+        color: black;
+        &:hover{
+            border-radius: 5px;
+            transition-duration: 0.5s;
+            background: $primary;
+            color: white;
+        }
+    }
+    .selected {
+        text-decoration: underline;
+        a{
+            color: #AC8A46;    
+        }
+    }
+}
 

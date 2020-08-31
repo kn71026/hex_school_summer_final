@@ -11325,6 +11325,19 @@ a.text-memberGray:hover, a.text-memberGray:focus {
   background-size: contain;
 }
 
+.navbar-nav li a {
+  display: block;
+  color: #8D8D8D;
+  padding: 0.5rem 0.5rem;
+}
+
+.navbar-nav li:hover {
+  border-radius: 3px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  background-color: #acb2b854;
+}
+
 .navbar-toggler:hover {
   background-color: #acb2b8;
   -webkit-transition-duration: 0.8s;
@@ -11351,6 +11364,26 @@ a.text-memberGray:hover, a.text-memberGray:focus {
 
 .navbarColor li a {
   color: white;
+}
+
+.page li a {
+  color: black;
+}
+
+.page li a:hover {
+  border-radius: 5px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  background: #916000;
+  color: white;
+}
+
+.page .selected {
+  text-decoration: underline;
+}
+
+.page .selected a {
+  color: #AC8A46;
 }
 
 .banner {
