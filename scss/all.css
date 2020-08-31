@@ -11496,11 +11496,28 @@ li .nav-link {
   color: #848484;
 }
 
-.memberlink:hover {
-  display: block;
-  border-bottom: 2px solid #916000;
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
+.memberlink {
+  position: relative;
+}
+
+.memberlink::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  height: 2px;
+  background-color: #916000;
+}
+
+.memberlink::after {
+  right: 50%;
+  left: 50%;
+}
+
+.memberlink:hover::after {
+  right: 0;
+  left: 0;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .active a {

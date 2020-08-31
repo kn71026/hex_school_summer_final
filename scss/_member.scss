@@ -8,10 +8,22 @@ li{
 }
 
 .memberlink{
-    &:hover{
-        display: block;
-        border-bottom: 2px solid $primary;
-        transition-duration: 0.3s;
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        height: 2px;
+        background-color: $primary;
+    }
+    &::after {
+        right: 50%;
+        left: 50%;
+    }
+    &:hover::after {
+        right: 0;
+        left: 0;
+        transition: .3s;
     }
 }
 
