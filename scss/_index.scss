@@ -34,7 +34,7 @@
     line-height: 1.5rem;
 }
 
-.sub{
+.subscription{
     @include text_to_image($sub_url,auto,600px,cover);
 }
 .inputMail{
@@ -43,5 +43,4 @@
     width: 290px;
     height: 60px;
     text-indent: 10px;
-
 }

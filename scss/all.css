@@ -11441,7 +11441,7 @@ a.text-memberGray:hover, a.text-memberGray:focus {
   line-height: 1.5rem;
 }
 
-.sub {
+.subscription {
   background-image: url("../img/sub.png");
   background-position: center center;
   background-repeat: no-repeat;

@@ -16,15 +16,4 @@
 }
 
 
-@mixin pad {
-    @media(max-width: 767px) {
-        @content;
-    }
-}
-
-@mixin mobile {
-    @media(max-width: 374px) {
-        @content;
-    }
-}
 
