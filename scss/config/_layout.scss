@@ -37,6 +37,15 @@
         }
     }
 }
+.brand{
+    li a{
+        &:hover{
+            transition-duration: 0.5s;
+            background-color: white;
+            color: $primary !important;
+        }
+    }
+}
 
 .navbarColor{
     background-color: $navbar;

@@ -11348,6 +11348,13 @@ a.text-memberGray:hover, a.text-memberGray:focus {
   outline: 0;
 }
 
+.brand li a:hover {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  background-color: white;
+  color: #916000 !important;
+}
+
 .navbarColor {
   background-color: #707070;
 }
